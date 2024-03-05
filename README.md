@@ -1,9 +1,5 @@
 # School
 
-
-
-Natürlich, hier ist ein Beispiel für ein Markdown-Datei, das erklärt, dass das Repository nur für schulische Zwecke, hauptsächlich für Informatikmodule, gedacht ist:
-
 ```markdown
 # Willkommen zum Schul-Repository!
 
