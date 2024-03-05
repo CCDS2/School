@@ -1,0 +1,23 @@
+13. Alle Datenbanken auf dem DB-Server anzeigen
+SHOW DATABASES;
+
+14. Alle Daten der Tabelle ADRESSEN löschen
+DELETE FROM ADRESSEN;
+
+15. In der Tabelle ADRESSEN eine neue Spalte LAND erstellen
+ALTER TABLE ADRESSEN ADD COLUMN LAND VARCHAR(255);
+
+16. Erklären des SQL-Befehls DROP TABLE IF EXISTS adressen
+Dieser Befehl löscht die Tabelle "adressen", falls sie existiert.
+
+17. Was wird mit dem Schlüsselwort GROUP BY angegeben?
+GROUP BY wird verwendet, um Zeilen zu gruppieren, die dieselben Werte in einer oder mehreren Spalten haben.
+
+18. Beispiel für einen SQL-Befehl, der IS NOT NULL enthält
+SELECT * FROM table_name WHERE column_name IS NOT NULL;
+
+19. Die Anzahl der Datensätze in Tabelle ADRESSEN bestimmen
+SELECT COUNT(*) FROM ADRESSEN;
+
+20. Korrektur des Befehls: SELECT * FROM city WHERE ort = 'Bern' OR 'Basel'
+SELECT * FROM city WHERE ort IN ('Bern', 'Basel');
